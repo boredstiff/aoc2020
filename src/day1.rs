@@ -8,7 +8,7 @@ pub fn part_1(input: &[i32]) -> i32 {
     for a in input {
         for b in input {
             if a + b == 2020 {
-                return a * b
+                return a * b;
             }
         }
     }
@@ -21,7 +21,7 @@ pub fn part_2(input: &[i32]) -> i32 {
         for b in input {
             for c in input {
                 if a + b + c == 2020 {
-                    return a * b * c
+                    return a * b * c;
                 }
             }
         }
